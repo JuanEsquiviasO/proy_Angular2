@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ES2015</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<script>
+	// const cursos = ['Angular', 'JS', 'Java'];
+
+	// //function(){}
+	// // () => {}
+
+	// cursos.map( name => console.log(name));
+
+	// var doble = function(){
+	// 	var _this = this;
+	// 	this.number *= 2;
+	// 	return function(){
+	// 		console.log(_this.number);
+	// 	}
+	// }
+
+	const doble = function(){
+		this.number *= 2;
+		return () => {
+			console.log(this.number);
+		}
+	}
+
+	doble.call({number:3})();
+
+</script>
+</body>
+</html>
