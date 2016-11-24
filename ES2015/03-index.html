@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ES2015</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<script>
+
+// var name = "Juan";
+// var texto = "este es un " + 
+// 	name +
+// 	" texto muy largo " +
+// 	"que no cabe en mi editor "
+// console.log(texto);
+
+const name = 'Juan';
+const names = [
+	'Roy', 'Rick', 'Ben'
+]
+let texto = `
+	Este es un texto largo
+	el nombre es :
+	<ul>
+		${
+			names.map( name => `<li>${name}</li>`).join('')
+		}
+	</ul>
+
+
+`;
+console.log(texto);
+</script>
+</body>
+</html>
