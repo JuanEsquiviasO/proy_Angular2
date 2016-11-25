@@ -1,14 +1,14 @@
+/// <reference path="../typings/globals/jquery/index.d.ts"/>
 "use strict";
-require('./datos');
-var Usuarios = (function () {
-    function Usuarios(name, age) {
-        this.usuario = {
-            name: name,
-            age: age
-        };
-        console.log(this.usuario);
+var $ = require('jquery');
+var Interaction = (function () {
+    function Interaction() {
+        $('#button_1').click(function () {
+            console.log('click me');
+            $(this).css('color', 'red');
+        });
     }
-    return Usuarios;
+    return Interaction;
 }());
-var u = new Usuarios('Fokker', 30);
+new Interaction();
 //# sourceMappingURL=main.js.map

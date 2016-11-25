@@ -1,16 +1,14 @@
-import './datos';
+/// <reference path="../typings/globals/jquery/index.d.ts"/>
 
-class Usuarios{
-	usuario : Usuario;
-	constructor( name : string,
-	age : number
-	){
-		this.usuario = {
-			name : name,
-			age : age
-		}
-		console.log(this.usuario);
+import *as $ from 'jquery';
+
+class Interaction{
+	constructor(){
+		$('#button_1').click( function(){
+			console.log('click me');
+			$(this).css('color','red');
+		})
 	}
 }
 
-const u = new Usuarios('Fokker', 30);
+new Interaction();
