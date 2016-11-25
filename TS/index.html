@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>ES6</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="https://unpkg.com/systemjs@0.19.39/dist/system.js"></script>
+<title>ES6</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://unpkg.com/systemjs@0.19.39/dist/system.js"></script>
 </head>
 <body>
-	<script>
-		System.config ({
-			packages: {
-				dist : {
+  <script>
+		System.config({
+			packages : {
+				dist :{
 					defaultExtension: "js",
 					main: "main"
 				}
 			}
 		});
 		System.import("dist");
-	</script>
+
+  </script>
 </body>
 </html>

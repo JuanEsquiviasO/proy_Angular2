@@ -1,4 +1,4 @@
-interface Usuario {
+interface Usuario{
 	name: string,
 	age: number;
 }
