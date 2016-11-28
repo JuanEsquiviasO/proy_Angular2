@@ -19,7 +19,7 @@ var COURSES = [
     {
         id: 2,
         name: 'Python',
-        image: 'https://www.python.org/static/opengraph-icon-200x200.png',
+        image: 'https://angular.io/resources/images/logos/angular2/angular.svg',
         price: 120
     }
 ];
