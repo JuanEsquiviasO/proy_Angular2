@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1,
+    "name" : "Angular 2",
+    "image": "https://angular.io/resources/images/logos/angular2/angular.svg",
+    "price" : 100
+  },
+  {
+    "id" : 2,
+    "name" : "Python",
+    "image": "https://angular.io/resources/images/logos/angular2/angular.svg",
+    "price" : 200
+  },
+  {
+    "id" : 3,
+    "name" : "Android",
+    "image": "https://angular.io/resources/images/logos/angular2/angular.svg",
+    "price" : 300
+  },
+	{
+    "id" : 4,
+    "name" : "Java",
+    "image": "https://angular.io/resources/images/logos/angular2/angular.svg",
+    "price" : 400
+  },
+	{
+    "id" : 5,
+    "name" : "React",
+    "image": "https://angular.io/resources/images/logos/angular2/angular.svg",
+    "price" : 500
+  }
+]
