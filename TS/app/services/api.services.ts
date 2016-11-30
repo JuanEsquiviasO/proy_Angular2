@@ -12,7 +12,8 @@ export class ApiService{
 
   getCourses(){
     let url = '/data/info.json';
-    // let url = 'http://platzi.josueggh.com/data.json';
+    // let url = 'http://jesquivias.neocities.org/data.json';
+    // let url = ' http://platzi.josueggh.com/data.json';
     return this.http.get(url)
       .toPromise()
       .then( response => response.json() )

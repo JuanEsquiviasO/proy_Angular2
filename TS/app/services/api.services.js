@@ -17,7 +17,8 @@ var ApiService = (function () {
     }
     ApiService.prototype.getCourses = function () {
         var url = '/data/info.json';
-        // let url = 'http://platzi.josueggh.com/data.json';
+        // let url = 'http://jesquivias.neocities.org/data.json';
+        // let url = ' http://platzi.josueggh.com/data.json';
         return this.http.get(url)
             .toPromise()
             .then(function (response) { return response.json(); })
